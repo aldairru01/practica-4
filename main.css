@@ -199,3 +199,50 @@ header .content-portada{
     opacity: 0.5;
     z-index: 1;
 }
+.clientesh2 {
+    text-align: center;
+    margin-top: 100px;
+    
+    color: gray;
+    letter-spacing: 3px;
+
+}
+
+.clienteContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+
+.clientecontainera{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.img20 {
+    border-radius: 100%;
+    margin: 20px;
+    width: 65px;
+}
+
+.clientecontainer2{
+    margin: 20px;
+}
+
+.containerp, .containerp2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.clientes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.containerp2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
