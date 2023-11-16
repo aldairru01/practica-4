@@ -13,3 +13,40 @@ main{
     width: 960px;
     margin: 0 auto;
 }
+.producto{
+    height: 450px;
+    display: flex;
+    border: solid black 2px;
+}
+.producto div {
+    flex: 1; 
+    padding: 20px; 
+}
+.producto1{
+    background-image: url(./imagenes/image-transform.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.contenidop{
+    text-align: left; /* Alinea el contenido a la derecha */
+    max-width: 600px; /* Establece un ancho máximo para mejorar la legibilidad */
+    margin: auto; /* Centra el bloque en el centro verticalmente */
+}
+.contenidop h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; /* Aplica negrita al texto */
+}
+.contenidop h1,
+.contenidop p,
+.contenidop h3 {
+    margin: 20px 80px; 
+    text-align: left;
+    
+}
+.contenidop h3 {
+    border-bottom: 10px solid rgba(160, 160, 36, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
