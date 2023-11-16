@@ -157,7 +157,7 @@ header .content-portada{
 }
 
 .titulo1{
-    transform: translate(0px, -200px);
+    transform: translate(0px, -180px);
     color: black;
     font-weight: bold;
     font-size: 30px;
@@ -167,10 +167,10 @@ header .content-portada{
 }
 
 .parrafo1{
-    transform: translate(0px, -180px);
+    transform: translate(0px, -160px);
     text-align: center;
     line-height: 1.5;
-    padding: 0 200px;
+    padding: 0 70px;
     color: black;
     font-weight: bold;
     font-size: 15px;
@@ -179,7 +179,7 @@ header .content-portada{
 }
 
 .titulo2{
-    transform: translate(0px, -200px);
+    transform: translate(0px, -180px);
     color: black;
     font-weight: bold;
     font-size: 30px;
@@ -189,13 +189,17 @@ header .content-portada{
 }
 
 .parrafo2{
-    transform: translate(0px, -180px);
+    transform: translate(0px, -160px);
     text-align: center;
     line-height: 1.5;
-    padding: 0 200px;
+    padding: 0 70px;
     color: black;
     font-weight: bold;
     font-size: 15px;
     opacity: 0.5;
     z-index: 1;
+}
+
+.imagenes{
+    max-width: 480px;
 }
