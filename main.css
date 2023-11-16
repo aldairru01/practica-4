@@ -9,7 +9,6 @@
 
 body{
     width: 100%;
-    
 }
 
 main{
@@ -47,13 +46,30 @@ main{
     text-align: left;
     
 }
-.contenidop h3 {
+.decoracion1 {
     border-bottom: 10px solid rgba(160, 160, 36, 0.473); /* Subrayado de color amarillo */
     display: inline-block; 
     padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
     border-radius: 10px;
 }
-
+.decoracion2 {
+    border-bottom: 10px solid rgba(173, 2, 216, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
+.producto2{
+    background-image: url(./imagenes/image-stand-out.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.decoracion {
+    border-bottom: 10px solid rgba(223, 223, 16, 0.473); /* Subrayado de color amarillo */
+    display: inline-block; 
+    padding-bottom: -20px; /* Espacio entre el texto y el subrayado */
+    border-radius: 10px;
+}
 /*--- header ----*/
 
 header{
@@ -127,4 +143,59 @@ header .content-portada{
     width: 80px;
     height: 130px;
     filter: invert();
+}
+
+.producto-producto-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.figure{
+    text-align: center;
+    position: relative;
+}
+
+.titulo1{
+    transform: translate(0px, -200px);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.parrafo1{
+    transform: translate(0px, -180px);
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.titulo2{
+    transform: translate(0px, -200px);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.parrafo2{
+    transform: translate(0px, -180px);
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.5;
+    z-index: 1;
 }
