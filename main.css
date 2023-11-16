@@ -18,7 +18,7 @@ main{
 .producto{
     height: 450px;
     display: flex;
-    border: solid black 2px;
+    
 }
 .producto div {
     flex: 1; 
@@ -146,14 +146,19 @@ header .content-portada{
 }
 
 .producto-producto-3{
-    width: 100%;
+    width: 960px;
     display: flex;
     justify-content: center;
+    
 }
 
 .figure{
     text-align: center;
-    position: relative;
+    
+}
+
+.imagenes{
+    width: 480px;
 }
 
 .titulo1{
@@ -170,7 +175,7 @@ header .content-portada{
     transform: translate(0px, -180px);
     text-align: center;
     line-height: 1.5;
-    padding: 0 200px;
+    padding: 0 70px;
     color: black;
     font-weight: bold;
     font-size: 15px;
@@ -192,7 +197,7 @@ header .content-portada{
     transform: translate(0px, -180px);
     text-align: center;
     line-height: 1.5;
-    padding: 0 200px;
+    padding: 0 70px;
     color: black;
     font-weight: bold;
     font-size: 15px;
@@ -222,6 +227,10 @@ header .content-portada{
 
 }
 
+.imagenes{
+    height: 450px;
+}
+
 .img20 {
     border-radius: 100%;
     margin: 20px;
@@ -248,17 +257,27 @@ header .content-portada{
 }
 
 section.fotos{
-    
     margin: auto;
     display: flex;
     width: 700px;
-    height: 490px;
+    height: 310px;
     justify-content: center;
 }
 
+.fotos img{
+    width: 240px;
+    
+}
+
+footer{
+    width: 960px;
+    margin: 0 auto;
+}
+
 .footer{
+    width: 960px;
     background-color: #90D4C5;
-    height: 300px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,7 +288,7 @@ section.fotos{
     color: #276e60;
    display: flex;
    justify-content: center;
-   height: 100px;
+   height: 50px;
 }
 
 p{
