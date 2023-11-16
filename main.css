@@ -9,7 +9,6 @@
 
 body{
     width: 100%;
-    
 }
 
 main{
@@ -144,4 +143,59 @@ header .content-portada{
     width: 80px;
     height: 130px;
     filter: invert();
+}
+
+.producto-producto-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.figure{
+    text-align: center;
+    position: relative;
+}
+
+.titulo1{
+    transform: translate(0px, -200px);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.parrafo1{
+    transform: translate(0px, -180px);
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.titulo2{
+    transform: translate(0px, -200px);
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.parrafo2{
+    transform: translate(0px, -180px);
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 200px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: 0.5;
+    z-index: 1;
 }
