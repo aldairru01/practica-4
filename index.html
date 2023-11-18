@@ -3,21 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>practica 04 Figma</title>
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <a href="">sunnyside</a>
+    <header class="header">
+      <div class="content-nav">
+        <div class="logo">
+          <h2>sunnyside</h2>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
       <div class="content-portada">
         <h2>WE ARE CREATIVES</h2>
         <div class="flecha">
@@ -25,17 +28,19 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="gen-meassure">
       <section class="services">
         <div class="content-services">
           <div class="info-service">
-            <h3>Transform your brand</h3>
-            <p>
-              We are a full-service creative agency specializing in helping
-              brands grow fast.Engage your clients through compelling visuals
-              that do most of the marketing for you.
-            </p>
-            <a href="">LEARN MORE</a>
+            <div class="cards-service">
+              <h3>Transform your brand</h3>
+              <p>
+                We are a full-service creative agency specializing in helping
+                brands grow fast.Engage your clients through compelling visuals
+                that do most of the marketing for you.
+              </p>
+              <a class="button-1" href="">LEARN MORE</a>
+            </div>
           </div>
           <div class="img-service">
             <img src="./imagenes/image-transform.jpg" alt="" />
@@ -43,20 +48,22 @@
         </div>
         <div class="content-services">
           <div class="img-service">
-            <img src="./imagenes/image-transform.jpg" alt="" />
+            <img src="./imagenes/image-stand-out.jpg" alt="" />
           </div>
           <div class="info-service">
-            <h3>Stand out to the right audience</h3>
-            <p>
-              Using a collaborative formula of designers, researchers,
-              photographers, videographers, and copywriters, we'll build and
-              extend your brand in digital places.
-            </p>
-            <a href="">LEARN MORE</a>
+            <div class="cards-service">
+              <h3>Stand out to the right audience</h3>
+              <p>
+                Using a collaborative formula of designers, researchers,
+                photographers, videographers, and copywriters, we'll build and
+                extend your brand in digital places.
+              </p>
+              <a class="button-2" href="">LEARN MORE</a>
+            </div>
           </div>
         </div>
-        <div class="content-services">
-          <div class="info-service">
+        <div class="content-services-card">
+          <div class="info-service-card bg-service-l">
             <h3>Graphic Desing</h3>
             <p>
               Great design makes you memorable. We deliver artwork that
@@ -64,7 +71,7 @@
               attention.
             </p>
           </div>
-          <div class="info-service">
+          <div class="info-service-card bg-service-r">
             <h3>Photography</h3>
             <p>
               Increase your credibility by getting the most stunning.
@@ -74,7 +81,7 @@
         </div>
       </section>
       <section class="clientes">
-        <h2>CLIENT TESTIMONIAL</h2>
+        <h2>CLIENT TESTIMONIALS</h2>
         <div class="content-testimonial-client">
           <div class="card-client">
             <img src="./imagenes/image-emily.jpg" alt="" />
@@ -120,7 +127,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="content-footer">
         <h4>sunnyside</h4>
         <div class="links-service">
